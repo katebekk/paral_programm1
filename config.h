@@ -2,9 +2,7 @@
 
 #ifdef __cplusplus
 #define EXTERN_C extern "C"
-
 #include <cstdio>
-
 using std::fprintf;
 #else
 #define EXTERN_C

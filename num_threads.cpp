@@ -1,7 +1,7 @@
 #include "num_threads.h"
 #include <omp.h> //MSVC: /openmp, gcc: -fopenmp
 
-unsigned thread_num = 2;
+unsigned thread_num = 1;
 
 EXTERN_C void set_num_threads(unsigned T) {
     thread_num = T;
